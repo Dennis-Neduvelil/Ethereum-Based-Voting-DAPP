@@ -26,11 +26,12 @@ contract Election {
 
     //Constructor
     constructor () public {
-        addCandidate("Candidate 1");
-        addCandidate("Candidate 2");
-        addCandidate("Candidate 3");
-        addCandidate("Candidate 4");
-        addCandidate("Candidate 5");
+        addCandidate("Steve Rogers");
+        addCandidate("Tony Stark");
+        addCandidate("Thor");
+        addCandidate("Natasha Romanoff");
+        addCandidate("Bruce Banner");
+        addCandidate("Bucky Barnes");
     }
 
     function addCandidate (string _name) private {

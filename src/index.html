@@ -73,7 +73,7 @@
       <div class="about-me container">
         <div class="section-title">
           <h2>Marvel Universe</h2>
-          <p>Learn more about me</p>
+          <p>Learn more about MCU</p>
         </div>
 
         <div class="row">
@@ -213,7 +213,7 @@
               <div class="portfolio-info">
                 <h4>Bucky Barnes</h4>
                 <p>(Winter Soldier)</p>
-                <h7>This candidate participating</h7>
+                <h7>Candidate 6</h7>
               </div>
             </div>
           </div>
@@ -242,7 +242,7 @@
                 name="name"
                 class="form-control"
                 id="name"
-                placeholder="Your Name"
+                placeholder="Your Nick Name"
                 required
               />
 
@@ -252,7 +252,7 @@
                 type="text"
                 class="form-control"
                 id="mid"
-                placeholder="Your marvel ID (12 digits)"
+                placeholder="Your MCU ID (12 digits)"
                 required
               />
 
@@ -263,7 +263,7 @@
               type="text"
               class="form-control"
               id="ethadr"
-              placeholder="Ethereum address"
+              placeholder="Ethereum Address"
               required
             />
           </div>
@@ -271,7 +271,7 @@
           <div id = "err" style="text-align: center; margin: 10px; color: darkkhaki; font-size: medium; font-weight: 700;">
             
           </div>
-          <div class="text-center"><button class="btn btn-outline-dark" type="submit">Validate</button>
+          <div class="text-center"><button class="btn btn-outline-light" type="submit">Validate</button>
           </div>
         </form>
       </div>
@@ -315,7 +315,7 @@
         });
 
   if (flag===true){
-  document.getElementById("err").innerHTML = "*Already Voated";
+  document.getElementById("err").innerHTML = "*Already Voted";
   }
   else{
   if (mid_str.length !==12){
